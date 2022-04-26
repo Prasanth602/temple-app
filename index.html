@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>My Temple app</title>
+</head>
+<body>
+    <div class="container">
+        <!--This is head section-->
+        <header>
+            <nav>
+                <a href="" class="nav-logo">Jai Hanumaan.</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="./index.html" target="_self" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="./history.html" class="nav-link">History</a></li>
+                    <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <!-- This is main body -->
+        <div class="main">
+            <!--This is Banner area-->
+            <div class="banner-area" data-banner>
+                <button class="prev btn" data-banner-btn ="prev"> &#8592; </button> 
+                <button class="next btn" data-banner-btn ="next"> &#8594; </button> 
+                <ul data-slides>   
+                    <li class="slide" data-active >
+                        <img src="IMAGES/download (1).jpeg"  alt="image">
+                    </li>
+                    <li class="slide" >
+                        <img src="IMAGES/download.jpeg"  alt="image">
+                    </li>
+                    <li class="slide" >
+                        <img src="IMAGES/hanuman-123622_1280.webp"  alt="image">
+                    </li>
+                    <li class="slide" >
+                        <img src="IMAGES/images.jpeg"  alt="image">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- NEWS SCROLLING AREA -->
+        <div class="scroll-news">
+            <marquee behavior="scroll" direction="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ratione culpa, veniam, suscipit, consequatur placeat saepe dolore reiciendis deleniti enim nam ducimus ipsum nisi ab obcaecati temporibus eaque hic inventore! </marquee>
+
+        </div>
+        <!-- FOOTER AREA -->
+        <div class="footer">
+            <div class="footer-menu">
+                <ul>
+                    <li class="footer-menu-item"><a href="./index.html">Home</a></li>
+                    <li class="footer-menu-item"><a href="./about.html" target="_self">About</a></li>
+                    <li class="footer-menu-item"><a href="./history.html">History</a></li>
+                    <li class="footer-menu-item"><a href="./gallery.html">Gallery</a></li>
+                    <li class="footer-menu-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                All Rights reserved @ <a href="./index.html">Hanumantemple.com</a>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
